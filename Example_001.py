@@ -7,7 +7,7 @@ path=[
     r"C:\Users\Administrator\Desktop\dddwg\New folder (13)\testtt.txt",
 ]
 
-folderName="tttt111"
+folderName="tttt111" 
 def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context(storage_state="auth.json")
